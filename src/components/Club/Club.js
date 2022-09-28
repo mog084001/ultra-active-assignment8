@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 import './Club.css';
 
 const Club = () => {
+    const [clubs, setClubs] = useState([])
+    useEffect(() => {
+        fetch('data.json')
+            .then(res => res.json())
+            .then(data => setClubs(data))
+    },)
     return (
         <div>
             <div className='gym-club'>
@@ -9,7 +16,9 @@ const Club = () => {
             </div>
             <div className='club-container'>
                 <div>
-                    <h1>This is club</h1>
+                    {
+                        clubs.map(club => <Product></Product>)
+                    }
                 </div>
                 <div>
                     <h3>Information Summary</h3>

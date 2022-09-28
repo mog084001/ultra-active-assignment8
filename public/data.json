@@ -1,52 +1,62 @@
 [
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 32,
-        "nameTitle": "Chelsea Ryan"
+        "timeRequired": "34s",
+        "nameTitle": "Nguyen Fields"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 31,
-        "nameTitle": "Antonia Cantrell"
+        "timeRequired": "11s",
+        "nameTitle": "Kasey Larsen"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 23,
-        "nameTitle": "Sandra Mcdaniel"
+        "timeRequired": "27s",
+        "nameTitle": "Strickland Newton"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 27,
-        "nameTitle": "Susanne Carter"
+        "timeRequired": "18s",
+        "nameTitle": "Melba Hays"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 13,
-        "nameTitle": "Lee Stevenson"
+        "timeRequired": "10s",
+        "nameTitle": "Annmarie Rodriquez"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 33,
-        "nameTitle": "Frieda Branch"
+        "timeRequired": "32s",
+        "nameTitle": "Corrine Wagner"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 10,
-        "nameTitle": "Parker Joseph"
+        "timeRequired": "32s",
+        "nameTitle": "Wilder Banks"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 16,
-        "nameTitle": "Suarez Watts"
+        "timeRequired": "12s",
+        "nameTitle": "Alba King"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 40,
-        "nameTitle": "Rosanne Jarvis"
+        "timeRequired": "32s",
+        "nameTitle": "Stark Wright"
     },
     {
         "img": "http://placehold.it/32x32",
-        "timeRequired": 33,
-        "nameTitle": "Mercado Pugh"
+        "timeRequired": "31s",
+        "nameTitle": "Roach Cox"
+    },
+    {
+        "img": "http://placehold.it/32x32",
+        "timeRequired": "19s",
+        "nameTitle": "Isabelle Gay"
+    },
+    {
+        "img": "http://placehold.it/32x32",
+        "timeRequired": "22s",
+        "nameTitle": "Hood Roberson"
     }
 ]

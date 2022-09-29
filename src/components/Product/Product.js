@@ -10,7 +10,9 @@ const Product = (props) => {
                 <p>{nameTitle}</p>
                 <p>Time requried: {timeRequried}</p>
             </div>
-
+            <button className='btn-cart'>
+                <p>Add to list</p>
+            </button>
         </div>
     );
 };

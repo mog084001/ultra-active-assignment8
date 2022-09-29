@@ -4,11 +4,17 @@ import './Club.css';
 
 const Club = () => {
     const [clubs, setClubs] = useState([])
+
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setClubs(data))
     },)
+
+    const handleToAddCart = (club) => {
+        console.log(club);
+    }
+
     return (
         <div>
             <div className='gym-club'>
@@ -20,7 +26,8 @@ const Club = () => {
             <div className='club-container'>
                 <div className='products-container'>
                     {
-                        clubs.map(club => <Product key={club.id} club={club}></Product>)
+                        clubs.map(club => <Product key={club.id} club={club}
+                            handleToAddCart={handleToAddCart}></Product>)
                     }
                 </div>
                 <div className='total-info'>

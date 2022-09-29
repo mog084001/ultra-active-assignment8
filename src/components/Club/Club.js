@@ -52,6 +52,15 @@ const Club = () => {
                         <p>30s</p>
                         <p>40s</p>
                     </div>
+                    <div>
+                        <h3>Exercise Details</h3>
+                    </div>
+                    <div className='exercise-time'>
+                        <h4>Exercise time</h4>
+                    </div>
+                    <div className='break-time'>
+                        <h4>Break time</h4>
+                    </div>
                 </div>
             </div>
         </div>

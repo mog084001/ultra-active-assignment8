@@ -119,3 +119,30 @@
     margin-left: 10px;
     padding-top: 12px;
 }
+
+.btn-activity
+{
+    width: 85%;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: #C37B89;
+}
+
+.question-and-answer
+{
+    background-color: #BDD2B6;
+    color: black;
+    width: 90%;
+    text-align: center;
+    justify-content: center;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+
+.question-and-answer h3
+{
+    color: #F8EDE3;
+}

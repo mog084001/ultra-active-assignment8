@@ -12,7 +12,7 @@ const Club = () => {
     return (
         <div>
             <div className='gym-club'>
-                <h1>Gym-Active-Club</h1>
+                <h1>World-Sport-Club</h1>
             </div>
             <div className='club-container'>
                 <div className='products-container'>

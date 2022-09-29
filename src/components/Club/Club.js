@@ -15,9 +15,9 @@ const Club = () => {
                 <h1>Gym-Active-Club</h1>
             </div>
             <div className='club-container'>
-                <div>
+                <div className='products-container'>
                     {
-                        clubs.map(club => <Product></Product>)
+                        clubs.map(club => <Product key={club.id} club={club}></Product>)
                     }
                 </div>
                 <div>

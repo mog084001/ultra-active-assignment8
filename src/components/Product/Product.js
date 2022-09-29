@@ -1,9 +1,12 @@
 import React from 'react';
+import './Product.css';
 
-const Product = () => {
+const Product = (props) => {
+    const { img, nameTitle, timeRequired } = props.club;
     return (
-        <div>
-            <h2>This is Product</h2>
+        <div className='product'>
+            <img src={img} alt="" />
+
         </div>
     );
 };

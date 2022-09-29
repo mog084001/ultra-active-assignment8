@@ -46,6 +46,12 @@ const Club = () => {
                     <div>
                         <h3>Add A Break</h3>
                     </div>
+                    <div className='circle'>
+                        <p>10s</p>
+                        <p>20s</p>
+                        <p>30s</p>
+                        <p>40s</p>
+                    </div>
                 </div>
             </div>
         </div>

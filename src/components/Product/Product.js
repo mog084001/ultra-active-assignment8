@@ -3,6 +3,9 @@ import './Product.css';
 
 const Product = (props) => {
     const { img, nameTitle, timeRequried } = props.club;
+    const handleToAddCart = () => {
+        console.log('clicked');
+    }
     return (
         <div className='product'>
             <img src={img} alt="" />
@@ -10,7 +13,7 @@ const Product = (props) => {
                 <p>{nameTitle}</p>
                 <p>Time requried: {timeRequried}</p>
             </div>
-            <button className='btn-cart'>
+            <button onClick={handleToAddCart} className='btn-cart'>
                 <p>Add to list</p>
             </button>
         </div>

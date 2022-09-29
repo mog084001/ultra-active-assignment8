@@ -15,3 +15,54 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+/* .total-info
+{
+    background-color: tomato;
+    align-items: center;
+    justify-content: center;
+} */
+
+.information-details
+{
+
+    background-color: #F8EDE3;
+    border-radius: 10px;
+    margin-right: 45px;
+
+}
+
+.information
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.information h3
+{
+    margin-left: 30px;
+}
+
+.information p
+{
+    color: gray;
+
+}
+
+.fitnes-info
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 25px;
+    padding-top: 0;
+}
+
+.fitnes-info p
+{
+    margin-top: -20px;
+    color: gray;
+}

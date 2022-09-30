@@ -1,9 +1,12 @@
+import { faSprout } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 import './Club.css';
 
 const Club = () => {
-    const [clubs, setClubs] = useState([])
+    const [clubs, setClubs] = useState([]);
+    const [cart, timeRequried, setCart] = useState([]);
 
     useEffect(() => {
         fetch('data.json')
@@ -13,15 +16,21 @@ const Club = () => {
 
     const handleToAddCart = (club) => {
         console.log(club);
+        const oldTimeRequired = 0;
+        const newTimeRequried = timeRequried + oldTimeRequired;
+        const newCart = [...cart, newTimeRequried, club];
+        setCart(newCart);
     }
 
     return (
         <div>
-            <div className='gym-club'>
+            <div className='sport-club'>
+                <FontAwesomeIcon className='icon1' icon={faSprout}></FontAwesomeIcon>
                 <h1>World-Sport-Club</h1>
             </div>
+            <h3 className='choice'>Choice Your Sport</h3>
             <div>
-                <h3>Choice Your Sport</h3>
+
             </div>
             <div className='club-container'>
                 <div className='products-container'>
@@ -63,7 +72,7 @@ const Club = () => {
                         <h3>Exercise Details</h3>
                     </div>
                     <div className='exercise-time'>
-                        <h4>Exercise time</h4>
+                        <h4>Exercise time {cart.length}</h4>
                     </div>
                     <div className='break-time'>
                         <h4>Break time</h4>
